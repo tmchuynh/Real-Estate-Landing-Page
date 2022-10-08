@@ -1,0 +1,229 @@
+
+
+/* =========== Prof. Rep Section ================= */
+/* Column Grids End */
+
+#purecounter-section {
+    width: 100%;
+    margin: 30px 0px;
+    position: relative;
+  }
+  
+  #percent::after {
+    content: "%";
+  }
+  
+  .counter {
+    background-color: #ffffff;
+    padding: 20px 0;
+    border-radius: 5px;
+    position: relative;
+    display: inline;
+    display: inline-block;
+    float: left;
+    margin-bottom: 20px;
+  }
+  
+  .count-title {
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+  .count-text {
+    font-size: 1.25rem;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+  .counter i {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: var(--fg-red);
+    font-size: 3rem;
+  }
+  /* =========== Carousel Section ================= */
+  
+  .owl-carousel .owl-stage {
+    position: relative;
+    color: #1a1a1a;
+    display: flex;
+  }
+  
+  .owl-carousel .owl-item {
+    position: relative;
+    height: 240px;
+    min-width: 240px;
+    border: 1px solid grey;
+    margin: 1rem 0.5rem;
+  }
+  
+  .owl-carousel .owl-item img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .owl-carousel .owl-item button {
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    bottom: 0;
+    font-size: 1rem;
+    background-color: #ebebeb;
+  }
+  
+  .owl-carousel .owl-item button:hover {
+    color: var(--fg-red);
+    background-color: #dfdfdf;
+  }
+  
+  @media (max-width: 768px) {
+    .owl-carousel .owl-item {
+      height: 180px;
+    }
+  }
+  /* =========== Commission Section ================= */
+  
+  #commissions-section label {
+    padding-top: 1.5rem;
+  }
+  
+  #commissionRange_Label {
+    font-size: 1.5rem;
+  }
+  
+  #commissions-section canvas {
+    max-width: 20rem;
+    max-height: 20rem;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  #withUs,
+  #withThem {
+    text-align: center;
+    position: relative;
+    top: -180px;
+  }
+  
+  .chart-legend {
+    font-size: 1.5rem;
+  }
+  
+  .chart-legend .dark {
+    background-color: #303031;
+    margin: 2rem;
+  }
+  
+  .chart-legend .red {
+    background-color: #aa0000;
+    margin: 0 2rem;
+  }
+  /* =========== Featured Listings Section ================= */
+  
+  @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+  
+  .carousel {
+    width: 100%;
+    display: inline-block;
+  }
+  
+  .property {
+    position: relative;
+    margin: 25px;
+    min-width: 230px;
+    max-width: 300px;
+    width: 30%;
+    display: inline-block;
+    color: #000001;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+    line-height: 1.4em;
+    font-size: 14px;
+    box-shadow: none !important;
+  }
+  
+  .property * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .property .profile-image {
+    display: inline-flex;
+    width: 80%;
+    height: 10rem;
+    z-index: 1;
+    position: relative;
+    padding: 10px;
+    border: 2px solid #e8b563;
+    --bs-gutter-y: 0;
+    --bs-gutter-x: 0;
+  }
+  
+  .property .profile-image img {
+    width: 100%;
+    vertical-align: top;
+    object-fit: cover;
+  }
+  
+  .property figcaption {
+    text-align: left;
+    min-height: 350px;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: #555;
+    padding: 125px 25px 25px;
+    margin-top: -100px;
+    display: inline-block;
+  }
+  
+  .property h3,
+  .property h4,
+  .property p {
+    margin: 0 0 5px;
+  }
+  
+  .property h3 {
+    font-weight: 600;
+    font-size: 1.3em;
+  }
+  
+  .property h4 {
+    color: #8c8c8c;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+  
+  .property p {
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    opacity: 0.9;
+  }
+  
+  .property .icons {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .property i {
+    padding: 10px 2px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: normal;
+    color: #e8b563;
+    opacity: 0.75;
+  }
+  
+  .property i:hover {
+    opacity: 1;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
